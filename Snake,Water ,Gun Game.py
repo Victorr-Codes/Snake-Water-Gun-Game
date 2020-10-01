@@ -1,26 +1,23 @@
-import random
+imrandom
 b = 1
-ptsc = 0
-ptsy = 0
+pts 0
 print("\nWELCOME TO SNAKE,WATER,GUN GAME\n")
-print("Choice:snake , water , gun")
+print("Choi , water , gun")
 
-while(b<6):
+while6):
     var = input("\nYour choice\n")
     lst = ["snake", "water", "gun"]
     a = random.choice(lst)
-        
-    if var=="snake" and a=="water":
+    ake" and a=="water":
         print("Computer's Choice:", a)
         print("'You won'")
         ptsy = ptsy + 1
 
-    elif var=="water" and a=="snake":
-        print("Computer's Choice:", a)
-        print("'Computer won'")
+    elif var= and a=="snake":
+        print("Cputer won'")
         ptsc = ptsc + 1
 
-    elif var=="gun" and a=="water":
+    elif varun" and a=="water":
         print("Computer's Choice:", a)
         print("'Computer won'")
         ptsc = ptsc + 1 
@@ -31,13 +28,7 @@ while(b<6):
         ptsc = ptsc + 1 
 
     elif var=="water" and a=="gun":
-        print("Computer's Choice:", a)
-        print("'You won'")
-        ptsy = ptsy + 1 
-
-    elif var=="gun" and a=="snake":
-        print("Computer's Choice:", a)
-        print("'You won'")
+        print("C
         ptsy = ptsy + 1 
 
     else:
@@ -55,9 +46,7 @@ if ptsy>ptsc:
     print("\nTHANKS FOR PLAYING")
     
 
-elif ptsc>ptsy:
-    print("COMPUTER WON THE GAME\n")
-    print("Number of times you won:", ptsy)
+elif ptsnt("Number of times you won:", ptsy)
     print("Number of times computer won:", ptsc)
     print("\nTHANKS FOR PLAYING")
     print("BETTER LUCK NEXT TIME")
