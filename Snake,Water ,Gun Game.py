@@ -3,7 +3,7 @@ b = 1
 pts 0
 print("\nWELCOME TO SNAKE,WATER,GUN GAME\n")
 print("Choi , water , gun")
-
+d
 while6):
     var = input("\nYour choice\n")
     lst = ["snake", "water", "gun"]
