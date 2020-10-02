@@ -13,7 +13,7 @@ while6):
         print("'You won'")
         ptsy = ptsy + 1
 
-    elif var= and a=="snake":
+    elif var= and a=="snaske":
         print("Cputer won'")
         ptsc = ptsc + 1
 
